@@ -9,4 +9,6 @@
 
 ## Notes
 
+* BeagleBone Black: http://beagleboard.org/black
+* General information with mini sd card layout: http://wiki.openwrt.org/toh/beaglebone/black
 * Build LUCI web gui: https://forum.openwrt.org/viewtopic.php?id=16599
