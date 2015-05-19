@@ -7,6 +7,22 @@
 3. Run `make menuconfig` to install base system or take `config_base-system`
 4. Run `make world`
 
+## Install
+
+1. Set up two partitions
+    1. Boot partition
+        - Id: c; Type: W95 FAT32 (LBA); about 128M
+        - Contains bootload and boot kernel image
+            - am335x-boneblack.dtb
+            - MLO
+            - u-boot.img
+            - uEnv.txt (not included in openwrt, can be found in this repo)
+            - zImage
+    2. Root partition
+        - Id: 83; Type: Linux; formatted with ext4 (this is important since yout have to define it in `uEnv.txt`)
+        - Contains the the root filesystem
+
+
 ## Notes
 
 * BeagleBone Black: http://beagleboard.org/black
