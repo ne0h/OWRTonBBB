@@ -1,5 +1,7 @@
 # OpenWRT on BeagleBone Black
 
+Current version at this time is `CHAOS CALMER (Bleeding Edge r45702)`
+
 ## Build
 
 1. Clone OpenWRT repository: `git clone git://git.openwrt.org/openwrt.git`
