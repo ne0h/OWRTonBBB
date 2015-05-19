@@ -1,6 +1,6 @@
 # OpenWRT on BeagleBone Black
 
-Current version at this time is `CHAOS CALMER (Bleeding Edge r45702)`
+Current version at this time is `CHAOS CALMER (Bleeding Edge r45702)`.
 
 ## Build
 
