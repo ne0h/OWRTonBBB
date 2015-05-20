@@ -23,6 +23,7 @@ Current version at this time is `CHAOS CALMER (Bleeding Edge r45702)`.
     2. Root partition
         - Id: 83; Type: Linux; formatted with ext4 (this is important since yout have to define it in `uEnv.txt`)
         - Contains the the root filesystem
+2. Copy newly build packages to beaglebone and install them via `opkg install $package`
 
 
 ## Notes
