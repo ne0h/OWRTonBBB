@@ -6,7 +6,7 @@ Current version at this time is `CHAOS CALMER (Bleeding Edge r45702)`.
 
 1. Clone OpenWRT repository: `git clone git://git.openwrt.org/openwrt.git`
 2. Update LUCI dependencies: `cd openwrt && ./scripts/feeds update packages luci && ./scripts/feeds install -a -p luci`
-3. Run `make menuconfig` to install base system or take `config_base-system`
+3. Run `make menuconfig` to install base system or make use `config_base-system`
 4. Run `make world`
 
 ## Install
