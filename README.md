@@ -21,7 +21,7 @@ Current version at this time is `CHAOS CALMER (Bleeding Edge r45702)`.
             - uEnv.txt (not included in openwrt, can be found in this repo)
             - zImage
     2. Root partition
-        - Id: 83; Type: Linux; formatted with ext4 (this is important since yout have to define it in `uEnv.txt`)
+        - Id: 83; Type: Linux; formatted with ext4 (specifying the exact filesystem is important since you have to define it in `uEnv.txt`)
         - Contains the the root filesystem
 2. Copy newly built packages to beaglebone and install them via `opkg install $package`
 
